@@ -1,4 +1,10 @@
+@font-face {
+font-family: 'BYekan';
+url('fonts/BYekan.ttf') format('truetype');
+}
+
 * {
+  font-family:'BYekan',Sans-Serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
