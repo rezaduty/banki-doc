@@ -452,8 +452,8 @@ textarea,
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
-    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+    src: url("../static/fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("../static/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../static/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../static/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../static/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../static/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
     font-weight: normal;
     font-style: normal
 }
@@ -7373,56 +7373,56 @@ span[id*='MathJax-Span'] {
     font-family: "Inconsolata";
     font-style: normal;
     font-weight: 400;
-    src: local("Inconsolata"), local("Inconsolata-Regular"), url(../fonts/Inconsolata-Regular.ttf) format("truetype")
+    src: local("Inconsolata"), local("Inconsolata-Regular"), url(../static/fonts/Inconsolata-Regular.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Inconsolata";
     font-style: normal;
     font-weight: 700;
-    src: local("Inconsolata Bold"), local("Inconsolata-Bold"), url(../fonts/Inconsolata-Bold.ttf) format("truetype")
+    src: local("Inconsolata Bold"), local("Inconsolata-Bold"), url(../static/fonts/Inconsolata-Bold.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Lato";
     font-style: normal;
     font-weight: 400;
-    src: local("Lato Regular"), local("Lato-Regular"), url(../fonts/Lato-Regular.ttf) format("truetype")
+    src: local("Lato Regular"), local("Lato-Regular"), url(../static/fonts/Lato-Regular.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Lato";
     font-style: normal;
     font-weight: 700;
-    src: local("Lato Bold"), local("Lato-Bold"), url(../fonts/Lato-Bold.ttf) format("truetype")
+    src: local("Lato Bold"), local("Lato-Bold"), url(../static/fonts/Lato-Bold.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Lato";
     font-style: italic;
     font-weight: 400;
-    src: local("Lato Italic"), local("Lato-Italic"), url(../fonts/Lato-Italic.ttf) format("truetype")
+    src: local("Lato Italic"), local("Lato-Italic"), url(../static/fonts/Lato-Italic.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Lato";
     font-style: italic;
     font-weight: 700;
-    src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(../fonts/Lato-BoldItalic.ttf) format("truetype")
+    src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(../static/fonts/Lato-BoldItalic.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 400;
-    src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/RobotoSlab-Regular.ttf) format("truetype")
+    src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../static/fonts/RobotoSlab-Regular.ttf) format("truetype")
 }
 
 @font-face {
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/RobotoSlab-Bold.ttf) format("truetype")
+    src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../static/fonts/RobotoSlab-Bold.ttf) format("truetype")
 }
 
 
