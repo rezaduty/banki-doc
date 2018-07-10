@@ -20,7 +20,7 @@
 
   {# FAVICON #}
   {% if favicon %}
-    <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}"/>
+    <link rel="shortcut icon" href="{{ pathto('static/' + favicon, 1) }}"/>
 
   {% endif %}
 
@@ -29,7 +29,7 @@
   {# OPENSEARCH #}
   {% if not embedded %}
     {% if use_opensearch %}
-      <link rel="search" type="application/opensearchdescription+xml" title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}" href="{{ pathto('_static/opensearch.xml', 1) }}"/>
+      <link rel="search" type="application/opensearchdescription+xml" title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}" href="{{ pathto('static/opensearch.xml', 1) }}"/>
     {% endif %}
 
   {% endif %}
@@ -62,7 +62,7 @@
    direction: ltr !important;
  }
 </style>
-    <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+    <link rel="stylesheet" href="{{ pathto('static/' + style, 1) }}" type="text/css" />
   {% endif %}
 
   {% for cssfile in css_files %}
@@ -102,7 +102,7 @@
   {%- block extrahead %} {% endblock %}
 
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
-  <script src="_static/js/modernizr.min.js"></script>
+  <script src="static/js/modernizr.min.js"></script>
   <style type="text/css">
       .menui {
       background: #fff;
@@ -220,7 +220,7 @@
 
         {% if logo %}
           {# Not strictly valid HTML, but it's the only way to display/scale it properly, without weird scripting or heaps of work #}
-          <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" />
+          <img src="{{ pathto('static/' + logo, 1) }}" class="logo" />
         {% endif %}
         </a>
 
@@ -302,7 +302,7 @@
 
   {# RTD hosts this file, so just load on non RTD builds #}
   {% if not READTHEDOCS %}
-    <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
+    <script type="text/javascript" src="{{ pathto('static/js/theme.js', 1) }}"></script>
   {% endif %}
 
   {# STICKY NAVIGATION #}
